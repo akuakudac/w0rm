@@ -1,0 +1,115 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/1a/90/90/1a90903d455a415825277750fe8dc86b.gif");
+   }
+   html, body {
+    min-height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #555;
+    width: 8%;
+    background-color: #222222;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+li a {
+    display: block;
+    width: 60px;
+    background-color: #222222;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 1px solid #555
+}
+li a:hover{
+    background-color: #555;
+    color: white;
+}
+li:last-child{
+    border-bottom: 1 px solid #555
+}
+.active {
+background-color: rgb(125, 115, 115);
+color: aliceblue;
+}
+
+/**hero section**/
+
+*{
+padding: 0%;
+margin: 0;
+box-sizing: border-box;
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+}
+.container {
+    width: 80%;
+    height: 100%;
+    max-width: 1000px;
+   margin: 0 auto;
+   display: flex;
+   align-items: top;
+   justify-content: top ;
+}
+.infoh1 {
+    font-size: 3rem;
+    font-family: vt323;
+    margin-top: 1rem;
+    text-align: top;
+    color: blue;
+    width: 60%;
+}
+.infoh2 {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    font-family: vt323;
+    text-align: top;
+    color: red;
+
+}
+.infop {
+    font-size: 1.2rem;
+    max-width: 60%;
+    font-family: vt323;
+    text-align: top;
+    color: red;
+}
+
+.infoa {
+    text-decoration: none;
+    display: inline-block;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 1.8 rem;
+    font-family: vt323;
+    padding: 0.5rem 2 rem;
+}
+
+/*end of nav*/
+
+.textfont{
+    font-family: vt323;
+   color: blue;
+   
+}
+.textfont2{
+    font-family: vt323;
+    color: #fff;
+    font-size: large;
+    width: 60%;
+}
+.image1{
+    margin: left;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    z-index: -1;
+    position: absolute;
+}
